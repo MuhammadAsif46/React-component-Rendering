@@ -1,0 +1,8 @@
+div.data-container{
+    margin-top: 1rem;
+}
+
+div.data-question{
+    border: 2px solid red;
+    text-align: center;
+}
