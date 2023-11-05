@@ -11,6 +11,9 @@ function List() {
 
   return (
     <div className="container">
+      <div style={{textAlign: "center", border:"2px solid aqua" }}>
+        <h2>Assignment No : 01</h2>
+      </div>
       <div className="name" >
         <ul>
           <li>{UserName}</li>
@@ -38,13 +41,6 @@ function List() {
             ))}
         </ul>
       </div>
-
-
-      {/* <ul>
-        {arr.map((val, idx) => (
-          <li key={idx}>{val}</li>
-        ))}
-      </ul> */}
     </div>
   );
 }
