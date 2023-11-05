@@ -1,6 +1,6 @@
 import "./Post.css";
 import React from "react";
-import { Card } from "antd";
+import { Card ,Avatar } from "antd";
 const { Meta } = Card;
 
 function Post() {
@@ -80,20 +80,21 @@ function Post() {
     },
   ];
 
-  const { data } = posts;
-  //   const data = posts.map((val, idx)=>{
-
-  //   })
-
   return (
     <div className="post-container">
       <div className="post-card">
         {posts.map((val, idx) => (
           //   <li key={idx}>{val.body}</li>
-          <Card className="card"
-            hoverable
-            style={{ width: 300 , height: 300 }}
-          >
+          <Card className="card" hoverable style={{ width: 300 }}>
+            <Avatar
+              style={{
+                backgroundColor: "#f56a00",
+              }}
+            >
+              {val.it}
+            </Avatar>
+            <br />
+            <br />
             <Meta title={val.title} description={val.body} />
           </Card>
         ))}
