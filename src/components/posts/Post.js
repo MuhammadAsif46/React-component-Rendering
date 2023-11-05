@@ -82,13 +82,16 @@ function Post() {
 
   return (
     <div className="post-container">
+        <div>
+            <h2 style={{textAlign: "center"}}>Assignment No : 03</h2>
+        </div>
       <div className="post-card">
         {posts.map((val, idx) => (
           //   <li key={idx}>{val.body}</li>
           <Card className="card" hoverable style={{ width: 300 }}>
             <Avatar
               style={{
-                backgroundColor: "#f56a00",
+                backgroundColor: "#8ecae6",
               }}
             >
               {val.it}
@@ -99,19 +102,6 @@ function Post() {
           </Card>
         ))}
       </div>
-
-      {/* <Card
-        hoverable
-        style={{ width: 240 }}
-        // cover={
-        //   <img
-        //     alt="example"
-        //     src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-        //   />
-        // }
-      >
-        <Meta title="sxka" description="www.instagram.com" />
-      </Card> */}
     </div>
   );
 }

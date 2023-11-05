@@ -1,6 +1,7 @@
 div.post-container{
-    border:  2px solid purple;
+    border:  1px solid #edede9;
     margin-top: 1rem;
+    background-color: #edede9;
 }
 div.post-card{
     display: flex;
