@@ -1,0 +1,22 @@
+div.name{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+div.data{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+div.list{
+    border: 2px solid purple;
+    display: flex;
+    justify-content: center;
+}
+div.company{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
